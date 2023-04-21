@@ -1,0 +1,15 @@
+.links{
+  li{
+    padding: 10px;
+  }
+  li:hover{
+    background-color: #f1f1f1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .active{
+    background-color: rgb(205, 227, 235);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}

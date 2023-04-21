@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+$fontColor: red;
+
+@mixin blueFont(){
+  color: blue;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.global{
+  background-color: red($color: #000000);
+}
